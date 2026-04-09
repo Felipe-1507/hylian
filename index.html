@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HYLIAN</title>
+    <title>HYLIAN — Demo</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><path d=%22M50 10 L30 50 L70 50 Z M30 50 L10 90 L50 90 Z M70 50 L50 90 L90 90 Z%22 fill=%22%23eab308%22/></svg>">
+    <link rel="icon" type="image/png" href="data:image/png;base64,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">
     
     <script>
         if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
@@ -31,7 +31,7 @@
         .toast-enter { animation: slideInRight 0.3s ease-out forwards; }
         .toast-leave { animation: fadeOutRight 0.3s ease-in forwards; }
         @keyframes slideInRight { from { transform: translateX(100%); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
-        @keyframes fadeOutRight { from { transform: translateX(100%); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
+        @keyframes fadeOutRight { from { transform: translateX(0); opacity: 1; } to { transform: translateX(100%); opacity: 0; } }
         ::-webkit-scrollbar { width: 6px; height: 6px; }
         ::-webkit-scrollbar-track { background: transparent; }
         ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
@@ -65,24 +65,10 @@
             #print-area table.cobranca-table td.td-value { padding: 0 !important; } 
             #print-area .col-value span:last-child { text-align: right; width: 100%; } 
             #print-area table.cobranca-table .row-gray td, #print-area table.cobranca-table .row-gray .td-value, #print-area table.cobranca-table .row-gray .col-value { background-color: #e5e7eb !important; -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; } 
-        .sticky-header thead {
-        position: sticky;
-        top: 0;
-        background-color: inherit;
-        z-index: 10;
         }
-
-        /* Para garantir que o fundo cubra o conteúdo ao rolar */
-        .sticky-header thead th {
-        background-color: inherit;
-        box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.1);
-        }
-        .dark .sticky-header thead,
-        .dark .sticky-header thead th {
-        background-color: #1f2937; /* slate-800, ajuste conforme necessário */
-        }
-        
-        }
+        .sticky-header thead { position: sticky; top: 0; background-color: inherit; z-index: 10; }
+        .sticky-header thead th { background-color: inherit; box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.1); }
+        .dark .sticky-header thead, .dark .sticky-header thead th { background-color: #1f2937; }
         .nav-card {
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); /* Curva de animação mais suave */
         }
@@ -129,9 +115,14 @@
 
 
 
+        .demo-banner { position: fixed; top: 0; left: 0; right: 0; z-index: 500; background: linear-gradient(90deg, #b45309, #d97706, #b45309); background-size: 200% 100%; animation: shimmer 3s linear infinite; text-align: center; font-size: 11px; font-weight: 700; letter-spacing: 0.15em; color: #fff; padding: 5px 0; text-transform: uppercase; }
+        @keyframes shimmer { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
+        body.demo-mode { padding-top: 28px; }
     </style>
 </head>
-<body class="bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-200 h-screen flex overflow-hidden transition-colors duration-300">
+<body class="bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-200 h-screen flex overflow-hidden transition-colors duration-300 demo-mode">
+
+    <div class="demo-banner">⚠ versão demonstração — dados fictícios para portfólio — nenhuma integração real ativa ⚠</div>
 
     <div id="print-area" class="hidden text-black bg-white"></div>
     <div id="toast-container" class="fixed bottom-4 right-4 z-50 flex flex-col gap-2"></div>
@@ -139,7 +130,7 @@
     <aside class="w-64 bg-slate-900 text-slate-300 flex flex-col shadow-2xl z-20 flex-shrink-0 transition-all duration-300 hidden md:flex border-r border-slate-800">
         <div class="h-20 flex flex-col items-center justify-center border-b border-slate-800 bg-slate-950">
             <div class="flex items-center gap-2">
-                <i data-lucide="triangle" class="text-yellow-400 w-5 h-5 fill-yellow-400"></i>
+                <img src="data:image/png;base64,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" alt="HYLIAN" class="w-10 h-10 object-contain">
                 <h1 class="text-white text-2xl font-black tracking-widest">HYLIAN</h1>
             </div>
         </div>
@@ -168,7 +159,7 @@
 
         <div class="p-5 border-t border-slate-800 bg-slate-950 text-center">
             <p class="text-[9px] text-slate-500 uppercase tracking-widest mb-1 font-bold">Desenvolvido por</p>
-            <a href="https://egrkfvzf.manus.space" target="_blank" class="text-sm font-bold text-yellow-400 hover:text-yellow-300 transition-colors flex items-center justify-center gap-1 group">
+            <a href="https://felipeferreira.dev" target="_blank" class="text-sm font-bold text-yellow-400 hover:text-yellow-300 transition-colors flex items-center justify-center gap-1 group">
                 Felipe Ferreira <i data-lucide="external-link" class="w-3 h-3 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"></i>
             </a>
         </div>
@@ -176,7 +167,7 @@
 
     <main class="flex-1 flex flex-col h-screen overflow-hidden relative">
         <header class="md:hidden bg-slate-950 h-16 flex items-center justify-between px-4 shadow-md z-20 border-b border-slate-800">
-            <div class="flex items-center gap-2"><i data-lucide="triangle" class="text-yellow-400 w-5 h-5 fill-yellow-400"></i><h1 class="text-white font-black tracking-widest">HYLIAN</h1></div>
+            <div class="flex items-center gap-2"><img src="data:image/png;base64,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" alt="HYLIAN" class="w-8 h-8 object-contain"><h1 class="text-white font-black tracking-widest">HYLIAN</h1></div>
             <div class="flex items-center gap-4"><button id="theme-toggle-mobile" class="text-slate-400 hover:text-yellow-400"><i data-lucide="moon" id="theme-icon-mobile"></i></button><button class="text-slate-300 hover:text-white"><i data-lucide="menu"></i></button></div>
         </header>
 
@@ -185,8 +176,8 @@
 <!-- VIEW: INÍCIO (DASHBOARD) -->
 <div id="view-home" class="block fade-in max-w-5xl mx-auto mt-6 view-section">
     <div class="text-center mb-5">
-        <div class="inline-flex items-center justify-center w-20 h-20 bg-slate-900 rounded-3xl mb-4 shadow-[0_10px_25px_rgba(234,179,8,0.2)]">
-            <i data-lucide="triangle" class="w-10 h-10 text-yellow-400 fill-yellow-400"></i>
+        <div class="inline-flex items-center justify-center w-24 h-24 bg-slate-900 rounded-3xl mb-4 shadow-[0_10px_25px_rgba(234,179,8,0.3)] p-2">
+            <img src="data:image/png;base64,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" alt="HYLIAN" class="w-full h-full object-contain">
         </div>
         <h2 class="text-5xl font-black text-slate-900 dark:text-white tracking-tight mb-2">HYLIAN</h2>
         <p class="text-xs font-bold text-slate-500 dark:text-slate-400 uppercase tracking-[0.25em]">High Yield Ledger & Intelligent Analytics Network</p>
@@ -441,12 +432,14 @@
                     
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
                         <div>
-                            <label class="block text-sm font-bold text-slate-700 dark:text-slate-200 mb-1">URL API (Script da Baixa):</label>
-                            <input type="text" id="baixa-apiUrl" class="w-full p-3 border border-slate-300 dark:border-slate-600 rounded-xl focus:ring-2 focus:ring-teal-500 bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-200" value="https://script.google.com/macros/s/AKfycbwLXPdFEA4AQlR7EnhABnEPzgplsEyq9g_yQ4aYzQMJgFGMzpmU2SacbHQ8TJ_5T5Z_/exec" placeholder="URL do Google Script de Baixa...">
+                            <label class="block text-sm font-bold text-slate-700 dark:text-slate-200 mb-1">Conexão API:</label>
+                            <div id="badge-baixa" class="flex items-center gap-1.5 text-xs font-semibold text-slate-400 mt-2"></div>
                         </div>
                         <div>
-                            <label class="block text-sm font-bold text-slate-700 dark:text-slate-200 mb-1">ID da Planilha "NOME":</label>
-                            <input type="text" id="baixa-sheetId" class="w-full p-3 border border-slate-300 dark:border-slate-600 rounded-xl focus:ring-2 focus:ring-teal-500 bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-200" value="1Ab0Iy5QEXLRlUVgbr3-YQJPPjDDKMXbiciv_rPwGOF4">
+                            <label class="block text-sm font-bold text-slate-700 dark:text-slate-200 mb-1">Planilha NOME:</label>
+                            <div class="flex items-center gap-1.5 mt-2 text-xs font-semibold text-emerald-600 dark:text-emerald-400">
+                                <i data-lucide="check-circle" class="w-3.5 h-3.5"></i><span>Vinculada (ID protegido)</span>
+                            </div>
                         </div>
                     </div>
                     <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
@@ -628,15 +621,21 @@
                             <label class="block text-sm font-bold text-slate-700 dark:text-slate-200 mb-2">Base de Contatos (Excel/CSV):</label>
                             <div class="relative group cursor-pointer" id="bol-db-dropzone">
                                 <input type="file" id="bol-dbInput" accept=".xlsx, .xls, .csv" class="absolute inset-0 w-full h-full opacity-0 cursor-pointer z-10">
-                                <div id="bol-db-container" class="w-full border-2 border-dashed border-slate-300 dark:border-slate-600 rounded-xl p-4 bg-slate-50 dark:bg-slate-900/50 group-hover:bg-slate-100 dark:group-hover:bg-slate-800 transition-all text-center flex flex-col items-center justify-center h-28"><i data-lucide="database" class="w-6 h-6 text-slate-400 mb-2"></i><span class="text-sm font-medium text-slate-600 dark:text-slate-300">Atualizar Banco</span></div>
+                                <div id="bol-db-container" class="w-full border-2 border-dashed border-slate-300 dark:border-slate-600 rounded-xl p-4 bg-slate-50 dark:bg-slate-900/50 group-hover:bg-slate-100 dark:group-hover:bg-slate-800 transition-all text-center flex flex-col items-center justify-center h-28"><i data-lucide="database" class="w-6 h-6 text-slate-400 mb-2"></i><span class="text-sm font-medium text-slate-600 dark:text-slate-300">Atualizar via Arquivo</span></div>
+                            </div>
+                            <div class="mt-2 flex gap-2">
+                                <button id="bol-btn-sync-sheets" class="btn-ripple flex items-center gap-1.5 px-3 py-2 bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold rounded-lg shadow transition-all whitespace-nowrap" title="Carregar banco direto do Google Sheets">
+                                    <i data-lucide="refresh-cw" class="w-3.5 h-3.5"></i> Sincronizar Sheets
+                                </button>
                             </div>
                             <div id="bol-db-status" class="mt-2 text-xs font-semibold px-3 py-2 rounded-lg bg-amber-50 text-amber-700 border border-amber-200 dark:bg-amber-900/20 dark:text-amber-400 flex items-center gap-2"><i data-lucide="alert-triangle" class="w-4 h-4"></i> Banco vazio.</div>
                         </div>
                         <div class="flex flex-col gap-3">
-                            <div><label class="block text-sm font-bold text-slate-700 dark:text-slate-200 mb-1">URL API:</label><input type="text" id="bol-apiUrl" class="w-full p-3 border border-slate-300 dark:border-slate-600 rounded-xl focus:ring-2 focus:ring-indigo-500 bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-200"></div>
+                            <div class="flex items-center justify-between"><label class="block text-sm font-bold text-slate-700 dark:text-slate-200">Conexão API:</label><div id="badge-boletos" class="flex items-center gap-1.5 text-xs font-semibold text-slate-400"></div></div>
                             <div class="grid grid-cols-2 gap-3">
                                 <div class="col-span-2"><label class="block text-xs font-bold text-slate-700 dark:text-slate-200 mb-1">Assunto:</label><input type="text" id="bol-assunto" class="w-full p-2.5 border border-slate-300 dark:border-slate-600 rounded-lg text-sm bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200" value="[ARQUIVO]"></div>
-                                <div class="col-span-2"><label class="block text-xs font-bold text-slate-700 dark:text-slate-200 mb-1">Corpo da Mensagem:</label><textarea id="bol-mensagem" rows="6" class="w-full p-2.5 border border-slate-300 dark:border-slate-600 rounded-lg text-sm bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200 resize-y">Olá!
+                                <div class="col-span-2"><label class="block text-xs font-bold text-slate-700 dark:text-slate-200 mb-1">Corpo da Mensagem:</label><textarea id="bol-mensagem" rows="6" class="w-full p-2.5 border border-slate-300 dark:border-slate-600 rounded-lg text-sm bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200 resize-y">
+Olá!
 
 Segue em anexo o [ARQUIVO].
 
@@ -646,8 +645,13 @@ Qualquer dúvida, me coloco à disposição.
 
 Atenciosamente,
 
-Felipe Ferreira
-Financeiro - Liflex</textarea></div>
+Felipe Ferreira  
+Financeiro  
+
+financeiro@liflex.com.br  
+(15) 3271-8090 | (15) 99625-9474  
+
+liflex.com.br</textarea></div>
                             </div>
                         </div>
                     </div>
@@ -695,18 +699,20 @@ Financeiro - Liflex</textarea></div>
                     <input type="file" id="pix-dbInput" accept=".xlsx, .xls, .csv" class="absolute inset-0 w-full h-full opacity-0 cursor-pointer z-10">
                     <div id="pix-db-container" class="w-full border-2 border-dashed border-slate-300 dark:border-slate-600 rounded-xl p-4 bg-slate-50 dark:bg-slate-900/50 group-hover:bg-slate-100 dark:group-hover:bg-slate-800 transition-all text-center flex flex-col items-center justify-center h-28">
                         <i data-lucide="database" class="w-6 h-6 text-slate-400 mb-2"></i>
-                        <span class="text-sm font-medium text-slate-600 dark:text-slate-300">Atualizar Banco</span>
+                        <span class="text-sm font-medium text-slate-600 dark:text-slate-300">Atualizar via Arquivo</span>
                     </div>
+                </div>
+                <div class="mt-2 flex gap-2">
+                    <button id="pix-btn-sync-sheets" class="btn-ripple flex items-center gap-1.5 px-3 py-2 bg-green-600 hover:bg-green-700 text-white text-xs font-bold rounded-lg shadow transition-all whitespace-nowrap" title="Carregar banco direto do Google Sheets">
+                        <i data-lucide="refresh-cw" class="w-3.5 h-3.5"></i> Sincronizar Sheets
+                    </button>
                 </div>
                 <div id="pix-db-status" class="mt-2 text-xs font-semibold px-3 py-2 rounded-lg bg-amber-50 text-amber-700 border border-amber-200 dark:bg-amber-900/20 dark:text-amber-400 flex items-center gap-2">
                     <i data-lucide="alert-triangle" class="w-4 h-4"></i> Banco vazio.
                 </div>
             </div>
             <div class="flex flex-col gap-3">
-                <div>
-                    <label class="block text-sm font-bold text-slate-700 dark:text-slate-200 mb-1">URL API (mesma dos boletos):</label>
-                    <input type="text" id="pix-apiUrl" class="w-full p-3 border border-slate-300 dark:border-slate-600 rounded-xl focus:ring-2 focus:ring-green-500 bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-200" value="https://script.google.com/macros/s/AKfycbz6B9ouWTD7Jk3eb58Uc5Kt2YbtV4BqGWLNk2f4Eq7spdLjHgAwyqOlsgN43ZzGGcLL6A/exec">
-                </div>
+                <div class="flex items-center justify-between"><label class="block text-sm font-bold text-slate-700 dark:text-slate-200">Conexão API:</label><div id="badge-pix" class="flex items-center gap-1.5 text-xs font-semibold text-slate-400"></div></div>
                 <div class="grid grid-cols-2 gap-3">
                     <div class="col-span-2">
                         <label class="block text-xs font-bold text-slate-700 dark:text-slate-200 mb-1">Assunto:</label>
@@ -714,7 +720,8 @@ Financeiro - Liflex</textarea></div>
                     </div>
                     <div class="col-span-2">
                         <label class="block text-xs font-bold text-slate-700 dark:text-slate-200 mb-1">Corpo da Mensagem:</label>
-                        <textarea id="pix-mensagem" rows="6" class="w-full p-2.5 border border-slate-300 dark:border-slate-600 rounded-lg text-sm bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200 resize-y">Olá!
+                        <textarea id="pix-mensagem" rows="6" class="w-full p-2.5 border border-slate-300 dark:border-slate-600 rounded-lg text-sm bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200 resize-y">
+Olá!
 
 Segue em anexo a nota fiscal e os dados para pagamento via PIX.
 
@@ -726,8 +733,14 @@ Dados para pagamento:
 Qualquer dúvida, estamos à disposição.
 
 Atenciosamente,
-Felipe Ferreira
-Financeiro - Liflex</textarea>
+
+Felipe Ferreira  
+Financeiro  
+
+financeiro@liflex.com.br  
+(15) 3271-8090 | (15) 99625-9474  
+
+liflex.com.br</textarea>
                     </div>
                 </div>
             </div>
@@ -1161,12 +1174,119 @@ LUIZ ALFREDO BETTI</textarea>
             <!-- VIEW: CORREIOS -->
             <div id="view-correio" class="hidden fade-in max-w-5xl mx-auto view-section">
                 <div class="mb-8 flex items-center gap-3"><div class="p-3 bg-orange-500 text-white rounded-xl shadow-lg"><i data-lucide="send" class="w-6 h-6"></i></div><div><h2 class="text-2xl font-bold text-slate-900 dark:text-white">Correios ERP</h2><p class="text-slate-500 dark:text-slate-400 text-sm">Etiquetar e reenviar emails na Nuvem.</p></div></div>
-                <div class="bg-white dark:bg-slate-800 rounded-3xl shadow-sm border border-slate-200 dark:border-slate-700 p-8"><div class="mb-6"><label class="block text-sm font-bold text-slate-700 dark:text-slate-200 mb-2">URL da API:</label><input type="text" id="api-url" class="w-full p-3 border border-slate-300 dark:border-slate-600 rounded-xl focus:ring-2 focus:ring-orange-500 bg-slate-50 dark:bg-slate-900 text-slate-600 dark:text-slate-300 text-sm" value="https://script.google.com/macros/s/AKfycbwXbSIMSWTJNpq74uN0sZk7yQK3pBrd8jk-fExxiDhi4Ydvsfnha5eVSEw_3Lo-gYGnwQ/exec" readonly><p class="text-xs text-green-600 dark:text-green-400 font-bold mt-1"><i data-lucide="check-circle" class="w-3 h-3 inline mb-0.5"></i> Conexão nativa estabelecida com o seu Google Drive.</p></div><div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6"><div class="md:col-span-2"><label class="block text-sm font-bold text-slate-700 dark:text-slate-200 mb-2">NFs para Reenviar:</label><textarea id="api-nfs" rows="8" class="w-full p-3 border border-slate-300 dark:border-slate-600 rounded-xl focus:ring-2 focus:ring-orange-500 bg-white dark:bg-slate-900 text-slate-800 dark:text-white text-sm font-mono shadow-inner"></textarea></div><div class="md:col-span-1"><label class="block text-sm font-bold text-slate-700 dark:text-slate-200 mb-2">Data de Corte:</label><input type="text" id="api-data" class="w-full p-3 border border-slate-300 dark:border-slate-600 rounded-xl focus:ring-2 focus:ring-orange-500 bg-white dark:bg-slate-900 text-slate-800 dark:text-white text-sm shadow-inner" value="2025/01/01"><div class="mt-6 bg-orange-50 dark:bg-orange-900/20 p-4 rounded-xl border border-orange-100 dark:border-orange-800/50"><h4 class="text-sm font-bold text-orange-800 dark:text-orange-300 mb-1 flex items-center gap-1"><i data-lucide="info" class="w-4 h-4"></i> Fluxo de Trabalho</h4><ol class="text-xs text-orange-700 dark:text-orange-400 list-decimal pl-3 space-y-1 mt-1"><li>Clique no Botão 1 para o Google criar e aplicar a etiqueta "REENVIAR" nestas NFs.</li><li>Após o sucesso, clique no Botão 2 para disparar os e-mails automaticamente.</li></ol></div></div></div><div class="flex flex-col sm:flex-row justify-center gap-4 border-t border-slate-100 dark:border-slate-700 pt-6"><button id="api-btn-label" class="btn-ripple bg-slate-900 dark:bg-slate-700 hover:bg-slate-800 text-white py-3.5 px-8 rounded-xl font-bold shadow-lg transition-all transform hover:-translate-y-0.5 disabled:opacity-50 flex items-center justify-center gap-2"><i data-lucide="tag" class="w-5 h-5 inline"></i> 1. Aplicar Etiquetas</button><button id="api-btn-forward" class="btn-ripple bg-orange-600 hover:bg-orange-700 text-white py-3.5 px-8 rounded-xl font-bold shadow-lg transition-all transform hover:-translate-y-0.5 disabled:opacity-50 flex items-center justify-center gap-2"><i data-lucide="send" class="w-5 h-5 inline"></i> 2. Disparar Reenvios</button></div><div id="api-results" class="hidden mt-6 p-6 rounded-2xl border"></div></div>
+                <div class="bg-white dark:bg-slate-800 rounded-3xl shadow-sm border border-slate-200 dark:border-slate-700 p-8"><div class="mb-6 flex items-center justify-between"><div><p class="text-sm font-bold text-slate-700 dark:text-slate-200">Conexão API Correios</p><p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Gerenciada via configuração segura</p></div><div id="badge-correios" class="flex items-center gap-1.5 text-xs font-semibold text-slate-400"></div></div><div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6"><div class="md:col-span-2"><label class="block text-sm font-bold text-slate-700 dark:text-slate-200 mb-2">NFs para Reenviar:</label><textarea id="api-nfs" rows="8" class="w-full p-3 border border-slate-300 dark:border-slate-600 rounded-xl focus:ring-2 focus:ring-orange-500 bg-white dark:bg-slate-900 text-slate-800 dark:text-white text-sm font-mono shadow-inner"></textarea></div><div class="md:col-span-1"><label class="block text-sm font-bold text-slate-700 dark:text-slate-200 mb-2">Data de Corte:</label><input type="text" id="api-data" class="w-full p-3 border border-slate-300 dark:border-slate-600 rounded-xl focus:ring-2 focus:ring-orange-500 bg-white dark:bg-slate-900 text-slate-800 dark:text-white text-sm shadow-inner" value="2025/01/01"><div class="mt-6 bg-orange-50 dark:bg-orange-900/20 p-4 rounded-xl border border-orange-100 dark:border-orange-800/50"><h4 class="text-sm font-bold text-orange-800 dark:text-orange-300 mb-1 flex items-center gap-1"><i data-lucide="info" class="w-4 h-4"></i> Fluxo de Trabalho</h4><ol class="text-xs text-orange-700 dark:text-orange-400 list-decimal pl-3 space-y-1 mt-1"><li>Clique no Botão 1 para o Google criar e aplicar a etiqueta "REENVIAR" nestas NFs.</li><li>Após o sucesso, clique no Botão 2 para disparar os e-mails automaticamente.</li></ol></div></div></div><div class="flex flex-col sm:flex-row justify-center gap-4 border-t border-slate-100 dark:border-slate-700 pt-6"><button id="api-btn-label" class="btn-ripple bg-slate-900 dark:bg-slate-700 hover:bg-slate-800 text-white py-3.5 px-8 rounded-xl font-bold shadow-lg transition-all transform hover:-translate-y-0.5 disabled:opacity-50 flex items-center justify-center gap-2"><i data-lucide="tag" class="w-5 h-5 inline"></i> 1. Aplicar Etiquetas</button><button id="api-btn-forward" class="btn-ripple bg-orange-600 hover:bg-orange-700 text-white py-3.5 px-8 rounded-xl font-bold shadow-lg transition-all transform hover:-translate-y-0.5 disabled:opacity-50 flex items-center justify-center gap-2"><i data-lucide="send" class="w-5 h-5 inline"></i> 2. Disparar Reenvios</button></div><div id="api-results" class="hidden mt-6 p-6 rounded-2xl border"></div></div>
             </div>
         </div>
     </main>
 
     <script>
+        // ============================================================
+        // HYLIAN DEMO — todas as integrações são simuladas
+        // Nenhuma chamada real ao Google é feita nesta versão
+        // ============================================================
+        const DEMO_MODE = true;
+        const _r = s => atob(s);
+        const CONFIG = {
+            scriptPrincipal:   'DEMO',
+            scriptConferencia: 'DEMO',
+            baixaApi:          'DEMO',
+            pixApi:            'DEMO',
+            correiosApi:       'DEMO',
+            get boletosApi()   { return 'DEMO'; },
+            get emailDbUrl()   { return 'DEMO'; },
+            sheetNome:         'DEMO',
+            sheetEmailDb:      'DEMO',
+        };
+
+        // ==================== MOCK API (DEMO) ====================
+        // Intercepta todos os fetch e retorna dados fictícios realistas
+        const _realFetch = window.fetch.bind(window);
+        window.fetch = async function(url, options) {
+            const urlStr = String(url);
+            if (!urlStr.includes('script.google.com') && urlStr !== 'DEMO' && !urlStr.startsWith('DEMO')) {
+                return _realFetch(url, options);
+            }
+            await new Promise(r => setTimeout(r, 600 + Math.random() * 800)); // simula latência
+            let action = '';
+            try {
+                const u = new URLSearchParams(urlStr.split('?')[1] || '');
+                action = u.get('action') || '';
+                if (!action && options?.body) {
+                    const b = JSON.parse(options.body);
+                    action = b.action || '';
+                }
+            } catch(e) {}
+
+            const resp = (data) => ({ ok:true, json: async () => data, text: async () => JSON.stringify(data) });
+
+            // --- Dashboard ---
+            if (action === 'getDashboardResumo') return resp({ status:'success', data:{ cancelamentosHoje:3, baixadasHoje:14, totalValorMes:87340.50, depositosPendentes:2 }});
+            if (action === 'getDadosGraficoBarras') return resp({ status:'success', labels:['Nov','Dez','Jan','Fev','Mar','Abr'], data:[312,287,341,298,376,354] });
+            if (action === 'getDadosGraficoPizza') return resp({ status:'success', labels:['Comércio','Distribuidora','GAMAX','GMAX'], data:[142,98,67,47] });
+
+            // --- Baixa ---
+            if (action === 'baixa') {
+                const lote = JSON.parse(options.body).lote || [];
+                return resp({ success:true, baixados: lote.length, ja_pagas:[], falhas:[], debug:['[DEMO] Iniciando baixa em lote...', `[DEMO] ${lote.length} nota(s) processadas com sucesso.`, '[DEMO] Planilha NOME atualizada.'] });
+            }
+
+            // --- Boletos ---
+            if (action === 'send_boletos') {
+                const lote = JSON.parse(options.body).lote || [];
+                return resp({ success:true, enviados: lote.length, debug:[`[DEMO] ${lote.length} e-mail(s) simulados com sucesso.`] });
+            }
+
+            // --- PIX ---
+            if (action === 'send_boletos' || urlStr.includes('pix')) {
+                const lote = (options?.body ? JSON.parse(options.body).lote : []) || [];
+                return resp({ success:true, enviados: lote.length || 1, debug:['[DEMO] PIX enviados com sucesso.'] });
+            }
+
+            // --- Correios ---
+            if (action === 'label') return resp({ success:true, marcados: JSON.parse(options.body).nfs?.length || 0, naoEncontrados:[] });
+            if (action === 'forward') return resp({ success:true, enviados: 4, temMais: false });
+
+            // --- Cancelamento ---
+            if (action === 'buscarNotaCancelamento') {
+                const num = new URLSearchParams(urlStr.split('?')[1]).get('numero') || '99999';
+                const clientes = ['EMPRESA ALFA LTDA','DISTRIBUIDORA BETA S/A','COMERCIAL GAMA EIRELI','INDÚSTRIA DELTA LTDA'];
+                const cli = clientes[Math.floor(Math.random()*clientes.length)];
+                return resp({ status:'success', data:{ numero: num, cliente: cli, emissao:'15/03/2025', valor: (Math.random()*8000+500).toFixed(2), lancado:'Sim', empresa:'C', tipo:'NF', abaOrigem:'NOTAS FISCAIS' }});
+            }
+            if (action === 'inserirCancelamento') return resp({ status:'success', message:'Cancelamento registrado.' });
+
+            // --- Conferência ---
+            if (action === 'buscarItens') {
+                const numeros = new URLSearchParams(urlStr.split('?')[1]).get('numeros')?.split(',') || ['12345'];
+                return resp({ status:'success', data: numeros.map(n => ({ cliente:'CLIENTE DEMO LTDA', numero:n.trim(), parcela:'', tipo:'NF', empresa:'C', vencimento:'30/04/2025', valor:(Math.random()*5000+300).toFixed(2) }))});
+            }
+
+            // --- Email DB ---
+            if (action === 'getEmailDatabase') {
+                return resp({ status:'success', database:{
+                    'EMPRESA ALFA LTDA':'financeiro@alfa.com.br',
+                    'DISTRIBUIDORA BETA SA':'contato@beta.com.br; cobranca@beta.com.br',
+                    'COMERCIAL GAMA EIRELI':'gama@comercio.com.br',
+                    'INDUSTRIA DELTA LTDA':'adm@delta.ind.br',
+                    'TRANSPORTES EPSILON ME':'epsilon@transportes.com.br',
+                    'CONSTRUTORA ZETA LTDA':'financeiro@zeta.com.br',
+                }});
+            }
+
+            // Fallback
+            return resp({ status:'success', success:true, message:'[DEMO] Operação simulada.' });
+        };
+
+        // Email DB demo pré-carregado no localStorage
+        localStorage.setItem('hylian_email_db', JSON.stringify({
+            'EMPRESA ALFA LTDA':'financeiro@alfa.com.br',
+            'DISTRIBUIDORA BETA SA':'contato@beta.com.br; cobranca@beta.com.br',
+            'COMERCIAL GAMA EIRELI':'gama@comercio.com.br',
+            'INDUSTRIA DELTA LTDA':'adm@delta.ind.br',
+            'TRANSPORTES EPSILON ME':'epsilon@transportes.com.br',
+            'CONSTRUTORA ZETA LTDA':'financeiro@zeta.com.br',
+        }));
+
         document.addEventListener('DOMContentLoaded', () => {
             lucide.createIcons();
 
@@ -1234,6 +1354,40 @@ LUIZ ALFREDO BETTI</textarea>
                     return null;
                 },
 
+                // Carrega o banco de e-mails direto de uma planilha Google Sheets via Apps Script.
+                // A URL é salva em localStorage (hylian_email_db_url) para não precisar digitar sempre.
+                // O Apps Script deve responder: { status:'success', database:{ "NOME": "email@..." } }
+                async syncEmailDbFromSheets(statusEl) {
+                    const url = CONFIG.emailDbUrl;
+                    if (!url) {
+                        statusEl.innerHTML = `<i data-lucide="alert-triangle" class="w-4 h-4"></i> Script principal não configurado no código.`;
+                        statusEl.className = "mt-2 text-xs font-semibold px-3 py-2 rounded-lg bg-amber-50 text-amber-700 border border-amber-200 dark:bg-amber-900/20 dark:text-amber-400 flex items-center gap-2";
+                        lucide.createIcons();
+                        return false;
+                    }
+                    statusEl.innerHTML = `<i data-lucide="loader-2" class="w-4 h-4 animate-spin"></i> Carregando do Sheets...`;
+                    statusEl.className = "mt-2 text-xs font-semibold px-3 py-2 rounded-lg bg-blue-50 text-blue-700 border border-blue-200 dark:bg-blue-900/20 dark:text-blue-400 flex items-center gap-2";
+                    lucide.createIcons();
+                    try {
+                        const params = new URLSearchParams({ action: 'getEmailDatabase', sheetId: CONFIG.sheetEmailDb });
+                        const response = await fetch(`${url}?${params}`);
+                        const data = await response.json();
+                        if (data.status !== 'success' || !data.database) throw new Error(data.message || 'Resposta inválida.');
+                        const db = data.database;
+                        const count = Object.keys(db).length;
+                        localStorage.setItem('hylian_email_db', JSON.stringify(db));
+                        statusEl.innerHTML = `<i data-lucide="check-circle" class="w-4 h-4"></i> Banco sincronizado: ${count} clientes.`;
+                        statusEl.className = "mt-2 text-xs font-semibold px-3 py-2 rounded-lg bg-emerald-50 text-emerald-700 border border-emerald-200 dark:bg-emerald-900/20 dark:text-emerald-400 dark:border-emerald-800/50 flex items-center gap-2";
+                        lucide.createIcons();
+                        return db;
+                    } catch (err) {
+                        statusEl.innerHTML = `<i data-lucide="x-circle" class="w-4 h-4"></i> Falha: ${err.message}`;
+                        statusEl.className = "mt-2 text-xs font-semibold px-3 py-2 rounded-lg bg-red-50 text-red-700 border border-red-200 dark:bg-red-900/20 dark:text-red-400 flex items-center gap-2";
+                        lucide.createIcons();
+                        return false;
+                    }
+                },
+
                 friendlyError: function(error) {
                     const msg = error.message || error.toString();
                         if (msg.includes('Failed to fetch') || msg.includes('NetworkError')) {
@@ -1258,7 +1412,7 @@ LUIZ ALFREDO BETTI</textarea>
                 },
                 carregarResumosDashboard: async function() {
                     try {
-                    const baseUrl = 'https://script.google.com/macros/s/AKfycbzHKdG8zR50ms52HiuRR4TWjR-HA26w5-L2FY_OYTIrHCPV_5oCWwTP0uPeuRti3pPD/exec'; // Substitua pela URL real
+                    const baseUrl = CONFIG.scriptPrincipal;
                     const params = new URLSearchParams({ action: 'getDashboardResumo' });
                     const response = await fetch(`${baseUrl}?${params}`);
                     const data = await response.json();
@@ -1301,6 +1455,12 @@ LUIZ ALFREDO BETTI</textarea>
                     }
                 } catch (error) {
                     console.error('Falha ao carregar resumos:', error);
+                    ['resumo-cancelamentos','resumo-baixadas','resumo-valor-mes','resumo-depositos'].forEach(id => {
+                        const el = document.getElementById(id);
+                        if (el) { el.innerText = '—'; el.title = 'Falha ao carregar dados'; }
+                    });
+                    const cards = document.querySelectorAll('.resumo-card');
+                    cards.forEach(c => c.classList.add('opacity-50'));
                 }
                 
             
@@ -1345,7 +1505,7 @@ carregarGraficos: async function() {
     if (graficoPizza) graficoPizza.destroy();
 
     try {
-        const baseUrl = 'https://script.google.com/macros/s/AKfycbzHKdG8zR50ms52HiuRR4TWjR-HA26w5-L2FY_OYTIrHCPV_5oCWwTP0uPeuRti3pPD/exec';
+        const baseUrl = CONFIG.scriptPrincipal;
 
         // Gráfico de barras
         const resBarras = await fetch(`${baseUrl}?action=getDadosGraficoBarras`);
@@ -1435,15 +1595,29 @@ extrairPrimeiroItemDoPDF: async function(arrayBuffer) {
     }
 }
 };
-
             window.Core = {
                 init() {
                     this.attachNavigation();
-                    const savedApiUrl = localStorage.getItem('hylian_boletos_api_url'); if(savedApiUrl && document.getElementById('bol-apiUrl')) document.getElementById('bol-apiUrl').value = savedApiUrl;
-                    const savedBaixaUrl = localStorage.getItem('hylian_baixa_api_url'); if(savedBaixaUrl && document.getElementById('baixa-apiUrl')) document.getElementById('baixa-apiUrl').value = savedBaixaUrl;
+                    this.updateUrlBadges();
+                },
+                updateUrlBadges() {
+                    const badges = [
+                        { id:'badge-baixa',    ok: !!CONFIG.baixaApi    },
+                        { id:'badge-boletos',  ok: !!CONFIG.boletosApi  },
+                        { id:'badge-pix',      ok: !!CONFIG.pixApi      },
+                        { id:'badge-correios', ok: !!CONFIG.correiosApi },
+                    ];
+                    badges.forEach(({ id, ok }) => {
+                        const el = document.getElementById(id);
+                        if (!el) return;
+                        el.innerHTML = ok
+                            ? `<i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-500"></i><span class="text-emerald-600 dark:text-emerald-400">Ativo</span>`
+                            : `<i data-lucide="alert-circle" class="w-3.5 h-3.5 text-amber-500"></i><span class="text-amber-600 dark:text-amber-400">Sem URL</span>`;
+                    });
+                    lucide.createIcons();
                 },
                 switchView(viewId) {
-                    ['view-home', 'view-boletos', 'view-baixa', 'view-faturamento', 'view-cobranca', 'view-francesinha', 'view-extrator', 'view-correio', 'view-deposito', 'view-conferencia','view-cancelamento','view-disparo-pix'].forEach(v => { const el = document.getElementById(v); if(el) el.classList.add('hidden'); });
+                    document.querySelectorAll('.view-section').forEach(el => el.classList.add('hidden'));
                     document.querySelectorAll('.nav-btn').forEach(btn => { btn.classList.remove('bg-yellow-400/10', 'text-yellow-400'); btn.classList.add('hover:bg-slate-800', 'text-slate-400'); const icon = btn.querySelector('i'); if(icon) { icon.classList.remove('text-yellow-400'); icon.classList.add('text-slate-400'); } });
                     const target = document.getElementById(viewId); if(target) target.classList.remove('hidden');
                     const activeBtn = document.querySelector(`.nav-btn[data-target="${viewId}"]`);
@@ -1694,8 +1868,7 @@ if (tipoDoc === 'PEDIDO') {
             window.ModuleBaixa = {
                 state: { pendingRows: [] },
                 init() {
-                    const dropzone = document.getElementById('baixa-dropzone'); const fileInput = document.getElementById('baixa-fileInput'); const btnSinc = document.getElementById('baixa-btn-sincronizar'); const apiUrlInput = document.getElementById('baixa-apiUrl');
-                    if(apiUrlInput) apiUrlInput.addEventListener('change', (e) => { localStorage.setItem('hylian_baixa_api_url', e.target.value.trim()); });
+                    const dropzone = document.getElementById('baixa-dropzone'); const fileInput = document.getElementById('baixa-fileInput'); const btnSinc = document.getElementById('baixa-btn-sincronizar');
                     dropzone.addEventListener('dragover', (e) => { e.preventDefault(); dropzone.querySelector('div').classList.add('bg-teal-100', 'dark:bg-teal-900/30', 'border-teal-400'); });
                     dropzone.addEventListener('dragleave', () => { dropzone.querySelector('div').classList.remove('bg-teal-100', 'dark:bg-teal-900/30', 'border-teal-400'); });
                     dropzone.addEventListener('drop', (e) => { e.preventDefault(); dropzone.querySelector('div').classList.remove('bg-teal-100', 'dark:bg-teal-900/30', 'border-teal-400'); if (e.dataTransfer.files.length > 0) window.ModuleBaixa.processMultipleFiles(e.dataTransfer.files); });
@@ -1796,8 +1969,20 @@ if (tipoDoc === 'PEDIDO') {
                     } catch (err) { console.error(err); loadingArea.classList.add('hidden'); loadingArea.classList.remove('flex'); window.Utils.showToast("Erro ao processar planilhas: " + err.message, "error"); }
                 },
                 async sincronizarGoogle() {
-                    const apiUrl = document.getElementById('baixa-apiUrl').value.trim(); const sheetId = document.getElementById('baixa-sheetId').value.trim(); const abaName = document.getElementById('baixa-abaName').value.trim(); const operador = document.getElementById('baixa-operador').value.trim(); const btn = document.getElementById('baixa-btn-sincronizar'); const terminal = document.getElementById('baixa-terminal'); const terminalContent = document.getElementById('baixa-terminal-content');
-                    if (!apiUrl || !sheetId || !abaName || !operador) { window.Utils.showToast("Preencha os parâmetros!", "error"); return; }
+                    const apiUrl = CONFIG.baixaApi; const sheetId = CONFIG.sheetNome; const abaName = document.getElementById('baixa-abaName').value.trim(); const operador = document.getElementById('baixa-operador').value.trim(); const btn = document.getElementById('baixa-btn-sincronizar'); const terminal = document.getElementById('baixa-terminal'); const terminalContent = document.getElementById('baixa-terminal-content');
+                    if (!apiUrl || !sheetId || !abaName || !operador) { window.Utils.showToast(!apiUrl ? "URL da Baixa não configurada no código." : "Preencha os parâmetros!", "error"); return; }
+
+                    const lotePreview = window.ModuleBaixa.state.pendingRows.slice(0,5).map(r => `NF ${r.nf}${r.parcela?'/'+r.parcela:''} — ${r.pagador.substring(0,30)}`);
+                    if (window.ModuleBaixa.state.pendingRows.length > 5) lotePreview.push(`... e mais ${window.ModuleBaixa.state.pendingRows.length - 5} nota(s)`);
+                    const ok = await window.Utils.confirm({
+                        title: `Baixar ${window.ModuleBaixa.state.pendingRows.length} nota(s)?`,
+                        message: `Esta ação vai registrar as baixas na planilha NOME. Operação irreversível.`,
+                        details: lotePreview,
+                        type: 'warning',
+                        confirmLabel: 'Sim, injetar baixas',
+                        confirmClass: 'bg-teal-600 hover:bg-teal-700 text-white'
+                    });
+                    if (!ok) return;
 
                     let loteEnvio = window.ModuleBaixa.state.pendingRows.map(r => ({ nf: r.nf, parcela: r.parcela, pagador: r.pagador, data: document.getElementById('data_' + r.id).value.trim() || r.data, valor: r.valor, forma: r.forma, operador: operador, empresa: r.empresa }));
                     
@@ -1813,10 +1998,9 @@ if (tipoDoc === 'PEDIDO') {
                         
                         if (data.success) {
                             let msg = `${data.baixados} NFs baixadas com sucesso!`;
-                            if (data.ja_pagas && data.ja_pagas.length > 0) {
-                                msg += ` (${data.ja_pagas.length} já estavam pagas e foram ignoradas).`;
-                            }
+                            if (data.ja_pagas && data.ja_pagas.length > 0) { msg += ` (${data.ja_pagas.length} já estavam pagas e foram ignoradas).`; }
                             window.Utils.showToast(msg, 'success');
+                            window.SessionLog.add('baixa', `${data.baixados} NF(s) baixadas — aba: ${abaName} — operador: ${operador}`);
                             
                             window.ModuleBaixa.state.pendingRows.forEach(r => { 
                                 let achouFalha = data.falhas && data.falhas.some(f => f.includes(r.nf)); 
@@ -1845,12 +2029,17 @@ if (tipoDoc === 'PEDIDO') {
             window.ModuleBoletos = {
                 state: { database: {}, pendingFiles: [] },
                 init() {
-                    const dbInput = document.getElementById('bol-dbInput'); const pdfInput = document.getElementById('bol-pdfInput'); const btnDisparar = document.getElementById('bol-btn-disparar'); const apiUrlInput = document.getElementById('bol-apiUrl');
-                    if(apiUrlInput) { apiUrlInput.addEventListener('change', (e) => { localStorage.setItem('hylian_boletos_api_url', e.target.value.trim()); }); }
+                    const dbInput = document.getElementById('bol-dbInput'); const pdfInput = document.getElementById('bol-pdfInput'); const btnDisparar = document.getElementById('bol-btn-disparar');
                     this.loadCachedDatabase();
                     dbInput.addEventListener('change', (e) => { if (e.target.files.length > 0) window.ModuleBoletos.processDatabase(e.target.files[0]); });
                     pdfInput.addEventListener('change', (e) => { if (e.target.files.length > 0) window.ModuleBoletos.processPdfFiles(e.target.files); });
                     btnDisparar.addEventListener('click', () => window.ModuleBoletos.dispararLote());
+                    const btnSync = document.getElementById('bol-btn-sync-sheets');
+                    if (btnSync) btnSync.addEventListener('click', async () => {
+                        const statusEl = document.getElementById('bol-db-status');
+                        const db = await window.Utils.syncEmailDbFromSheets(statusEl);
+                        if (db) { window.ModuleBoletos.state.database = db; window.ModulePix.state.database = db; window.ModulePix.loadCachedDatabase(); }
+                    });
                 },
                 normalizeName(str) { return (!str) ? "" : str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toUpperCase().replace(/[^A-Z0-9\s]/g, " ").replace(/\s+/g, " ").trim(); },
                 loadCachedDatabase() {
@@ -1906,7 +2095,7 @@ if (tipoDoc === 'PEDIDO') {
                     loadingArea.classList.add('hidden'); loadingArea.classList.remove('flex'); resultsSection.classList.remove('hidden'); document.getElementById('bol-pdfInput').value = ''; 
                 },
                 async dispararLote() {
-                    const apiUrl = document.getElementById('bol-apiUrl').value.trim(); if (!apiUrl) { window.Utils.showToast("Preencha a URL da API!", "error"); return; }
+                    const apiUrl = CONFIG.boletosApi; if (!apiUrl) { window.Utils.showToast("URL de boletos não configurada.", "error"); return; }
                     const subject = document.getElementById('bol-assunto').value.trim() || "Boleto"; const bodyText = document.getElementById('bol-mensagem').value.trim();
                     const btn = document.getElementById('bol-btn-disparar'); const terminal = document.getElementById('bol-terminal'); const terminalContent = document.getElementById('bol-terminal-content');
                     let loteEnvio = [];
@@ -1915,8 +2104,14 @@ if (tipoDoc === 'PEDIDO') {
                         const inputVal = document.getElementById('email_' + file.id).value.trim();
                         if (inputVal && inputVal.includes('@')) {
                             const nome = file.filename.replace(/\.[^/.]+$/, ""); 
-                            loteEnvio.push({ filename: file.filename, to: inputVal, subject: subject.replace(/\[ARQUIVO\]/g, nome), htmlBody: bodyText.replace(/\[ARQUIVO\]/g, nome), base64: file.base64 });
-                            document.getElementById('status_' + file.id).innerHTML = `<i data-lucide="loader-2" class="w-5 h-5 mx-auto text-indigo-500 animate-spin"></i>`;
+                            let corpoHtml = bodyText.replace(/\[ARQUIVO\]/g, nome);
+                            loteEnvio.push({ 
+                                filename: file.filename, 
+                                to: inputVal, 
+                                subject: subject.replace(/\[ARQUIVO\]/g, nome), 
+                                htmlBody: corpoHtml, 
+                                base64: file.base64 
+                    });document.getElementById('status_' + file.id).innerHTML = `<i data-lucide="loader-2" class="w-5 h-5 mx-auto text-indigo-500 animate-spin"></i>`;
                         } else { document.getElementById('status_' + file.id).innerHTML = `<i data-lucide="x-circle" class="w-5 h-5 mx-auto text-red-500"></i>`; }
                     });
                     lucide.createIcons();
@@ -1930,6 +2125,7 @@ if (tipoDoc === 'PEDIDO') {
                         if (data.debug) { terminalContent.innerHTML = data.debug.join('<br> > '); terminal.classList.remove('hidden'); }
                         if (data.success) {
                             window.Utils.showToast(`${data.enviados} envios executados!`, 'success');
+                            window.SessionLog.add('disparo', `${data.enviados} boleto(s) disparado(s) por e-mail`);
                             this.state.pendingFiles.forEach(file => { const stEl = document.getElementById('status_' + file.id); if (stEl.innerHTML.includes('loader')) { stEl.innerHTML = `<i data-lucide="check" class="w-5 h-5 mx-auto text-emerald-500"></i>`; } });
                         } else { throw new Error(data.message); }
                     } catch (error) { window.Utils.showToast("Falha na conexão.", "error"); this.state.pendingFiles.forEach(file => { const stEl = document.getElementById('status_' + file.id); if (stEl.innerHTML.includes('loader')) { stEl.innerHTML = `<i data-lucide="wifi-off" class="w-5 h-5 mx-auto text-red-500"></i>`; } }); }
@@ -2220,7 +2416,7 @@ if (tipoDoc === 'PEDIDO') {
                         let eR = row[colMap.emissao], cR = String(row[colMap.cliente]).trim(), cdR = String(row[colMap.cond]).trim(), tR = row[colMap.total]; let sitR = colMap.situacao !== -1 && row[colMap.situacao] ? String(row[colMap.situacao]).trim().toUpperCase() : "";
                         let cL = window.ModuleFaturamento.cleanClient(cR); let eF = window.ModuleFaturamento.parseDate(eR); if (!window.ModuleFaturamento.state.dataEmissaoGlobal && eF && !eF.includes('EMISS')) window.ModuleFaturamento.state.dataEmissaoGlobal = eF;
                         let vT = window.Utils.parseNum(tR); 
-                        let nN = parseInt(nD, 10), eC = 'C', grp = 'COMERCIO'; if (nN>=45000 && nN<=53049) eC='C'; else if (nN>=53050 && nN<=69000) eC='D'; else if (nN>=69300 && nN<=100000) eC='G'; else if (nN<45000) eC='GX'; if (isPed || nN>690000) grp='PEDIDOS'; else { grp = eC==='C'?'COMERCIO':eC==='D'?'DISTRIBUIDORA':eC==='G'?'GAMAX':'GMAX'; }
+                        let nN = parseInt(nD, 10), eC = 'C', grp = 'COMERCIO'; if (nN>=53000 && nN<=54987) eC='C'; else if (nN>=54988 && nN<=69000) eC='D'; else if (nN>=69300 && nN<=100000) eC='G'; else if (nN<45000) eC='GX'; if (isPed || nN>690000) grp='PEDIDOS'; else { grp = eC==='C'?'COMERCIO':eC==='D'?'DISTRIBUIDORA':eC==='G'?'GAMAX':'GMAX'; }
                         let cM = window.ModuleFaturamento.condicao(cdR); if (sitR.includes('CANCELAD')) { cM = 'CANCELADO'; }
                         if (cM === 'CANCELADO' || vT < 0) { if (grp === 'PEDIDOS') { window.ModuleFaturamento.state.finalRawData[grp].push(["CANCELADO", nfR, eC, "", "CANCELADO", eF, cL, vT, "CANCELADO"]); } else { window.ModuleFaturamento.state.finalRawData[grp].push(["CANCELADO", nfR, eC, "", "CANCELADO", eF, cL, vT, "CANCELADO", "-"]); } count++; continue; }
                         let p = cM.includes("-") ? cM.split("-") : [cM]; let vB = Math.floor((vT / p.length)*100)/100; let cRest = Math.round((vT - (vB*p.length))*100)/100;
@@ -2308,8 +2504,8 @@ if (tipoDoc === 'PEDIDO') {
                     if (isTrimmed) { ws['!cols'] = [{wch: 12}, {wch: 6}, {wch: 6}, {wch: 10}, {wch: 15}, {wch: 55}, {wch: 16}]; } 
                     else { ws['!cols'] = [{wch: 15}, {wch: 12}, {wch: 6}, {wch: 6}, {wch: 10}, {wch: 15}, {wch: 55}, {wch: 16}, {wch: 15}, {wch: 18}]; }
                     
-                    const workbook = XLSX.utils.book_new(); let nFileName = prefix; if(window.ModuleFaturamento.state.dataEmissaoGlobal) { let p = window.ModuleFaturamento.state.dataEmissaoGlobal.split('/'); nFileName = `${prefix}_${p[0]}-${p[1]}`; }
-                    XLSX.utils.book_append_sheet(workbook, ws, "N"); XLSX.writeFile(workbook, `${nFileName}.xlsx`);
+                    const workbook = XLSX.utils.book_new(); let nFileName = prefix; let tabName = "N"; if(window.ModuleFaturamento.state.dataEmissaoGlobal) { let p = window.ModuleFaturamento.state.dataEmissaoGlobal.split('/'); nFileName = `${prefix}_${p[0]}-${p[1]}`; tabName = `N${p[0]}-${p[1]}`; }
+                    XLSX.utils.book_append_sheet(workbook, ws, tabName); XLSX.writeFile(workbook, `${nFileName}.xlsx`);
                 },
                 exportM() {
                     let dataTitulo = window.ModuleFaturamento.state.dataEmissaoGlobal || "HOJE"; let excelData = [ [`MAPA CONTROLE ${dataTitulo}`, "", "", "", ""], ["CLIENTE", "NF", "DESCRIÇÃO", "TOTAL", "VENC."] ]; window.ModuleFaturamento.state.mapaControleData.forEach(item => excelData.push(item));
@@ -2389,14 +2585,26 @@ if (tipoDoc === 'PEDIDO') {
                     const displayHeaders = headers.slice(0, 6); let trHead = document.createElement('tr'); displayHeaders.forEach(h => { let th = document.createElement('th'); th.className = "px-6 py-3 font-bold"; th.innerText = h; trHead.appendChild(th); }); thead.appendChild(trHead);
                     data.forEach((row, index) => { let tr = document.createElement('tr'); tr.className = index % 2 === 0 ? 'bg-white dark:bg-slate-800' : 'bg-slate-50 dark:bg-slate-900'; displayHeaders.forEach(h => { let td = document.createElement('td'); td.className = "px-6 py-3 whitespace-nowrap text-slate-600 dark:text-slate-400"; td.innerText = row[h] || '-'; tr.appendChild(td); }); tbody.appendChild(tr); });
                 },
-                downloadData() { if (window.ModuleExtrator.state.filteredData.length === 0) return; const worksheet = XLSX.utils.json_to_sheet(window.ModuleExtrator.state.filteredData); const workbook = XLSX.utils.book_new(); XLSX.utils.book_append_sheet(workbook, worksheet, "Filtrados"); XLSX.writeFile(workbook, `Pedidos_Filtrados.xlsx`); }
+                downloadData() {
+                    if (window.ModuleExtrator.state.filteredData.length === 0) return;
+                    const idCol = window.ModuleExtrator.state.headers.find(h => h.toLowerCase().includes('pedido') || h.toLowerCase().includes('nro') || h.toLowerCase().includes('orçamento')) || window.ModuleExtrator.state.headers[0];
+                    const sorted = [...window.ModuleExtrator.state.filteredData].sort((a, b) => {
+                        const nA = parseInt(String(a[idCol] || '').replace(/\D/g, '')) || 0;
+                        const nB = parseInt(String(b[idCol] || '').replace(/\D/g, '')) || 0;
+                        return nA - nB;
+                    });
+                    const worksheet = XLSX.utils.json_to_sheet(sorted);
+                    const workbook = XLSX.utils.book_new();
+                    XLSX.utils.book_append_sheet(workbook, worksheet, "Filtrados");
+                    XLSX.writeFile(workbook, `Pedidos_Filtrados.xlsx`);
+                }
             };
 
             window.ModuleCorreios = {
                 init() { document.getElementById('api-btn-label').addEventListener('click', () => window.ModuleCorreios.enviarParaGoogle()); document.getElementById('api-btn-forward').addEventListener('click', () => window.ModuleCorreios.dispararEmailsGoogle()); },
                 async enviarParaGoogle() {
-                    const url = document.getElementById('api-url').value.trim(); const nfsRaw = document.getElementById('api-nfs').value; const dataCorte = document.getElementById('api-data').value.trim(); const btn = document.getElementById('api-btn-label'); const resDiv = document.getElementById('api-results');
-                    if(!url) { window.Utils.showToast('A URL do Google Script está vazia!', 'error'); return; }
+                    const url = CONFIG.correiosApi; const nfsRaw = document.getElementById('api-nfs').value; const dataCorte = document.getElementById('api-data').value.trim(); const btn = document.getElementById('api-btn-label'); const resDiv = document.getElementById('api-results');
+                    if(!url) { window.Utils.showToast('URL da API não configurada.', 'error'); return; }
                     let nfsArray = nfsRaw.split('\n').map(n => n.trim()).filter(n => n !== ''); if(nfsArray.length === 0) { window.Utils.showToast('Lista vazia.', 'error'); return; }
                     btn.disabled = true; btn.innerHTML = `<i data-lucide="loader-2" class="w-5 h-5 animate-spin text-slate-400"></i> Etiquetando...`; lucide.createIcons(); resDiv.classList.add('hidden');
                     try {
@@ -2411,8 +2619,8 @@ if (tipoDoc === 'PEDIDO') {
                     btn.disabled = false; btn.innerHTML = `<i data-lucide="tag" class="w-5 h-5 inline"></i> 1. Aplicar Etiquetas`; lucide.createIcons();
                 },
                 async dispararEmailsGoogle() {
-                    const url = document.getElementById('api-url').value.trim(); const btn = document.getElementById('api-btn-forward'); const resDiv = document.getElementById('api-results');
-                    if(!url) { window.Utils.showToast('URL vazia!', 'error'); return; }
+                    const url = CONFIG.correiosApi; const btn = document.getElementById('api-btn-forward'); const resDiv = document.getElementById('api-results');
+                    if(!url) { window.Utils.showToast('URL da API não configurada.', 'error'); return; }
                     btn.disabled = true; btn.innerHTML = `<i data-lucide="loader-2" class="w-5 h-5 animate-spin"></i> Disparando...`; lucide.createIcons(); resDiv.classList.add('hidden');
                     try {
                         const response = await fetch(url, { method: 'POST', body: JSON.stringify({ action: 'forward' }), headers: { 'Content-Type': 'text/plain;charset=utf-8' } });
@@ -2472,7 +2680,7 @@ window.ModuleConferencia = {
         erroEl.classList.add('hidden');
 
         try {
-            const baseUrl = 'https://script.google.com/macros/s/AKfycbwYeJVmOSFU5cMXC3wyAufRK_lVGxhlWxrfSpm1IG3qRHoY6YL6ymnkKQdKyF9Jp54asg/exec';
+            const baseUrl = CONFIG.scriptConferencia;
             const params = new URLSearchParams({
                 action: 'buscarItens',
                 tipo: tipo,
@@ -2691,7 +2899,7 @@ window.ModuleCancelamento = {
         this.state.notasEncontradas = [];
 
         try {
-            const baseUrl = 'https://script.google.com/macros/s/AKfycbzHKdG8zR50ms52HiuRR4TWjR-HA26w5-L2FY_OYTIrHCPV_5oCWwTP0uPeuRti3pPD/exec';
+            const baseUrl = CONFIG.scriptPrincipal;
             const promises = numerosArray.map(async (numero) => {
                 const params = new URLSearchParams({
                     action: 'buscarNotaCancelamento',
@@ -2756,21 +2964,26 @@ window.ModuleCancelamento = {
             return;
         }
 
-        // Coleta os motivos de cada linha
         const notasComMotivo = this.state.notasEncontradas.map((nota, index) => {
             const motivoInput = document.getElementById(`motivo-${index}`);
-            return {
-                ...nota,
-                motivo: motivoInput ? motivoInput.value.trim() : ''
-            };
+            return { ...nota, motivo: motivoInput ? motivoInput.value.trim() : '' };
         });
 
-        // Valida se todos os motivos foram preenchidos
         const semMotivo = notasComMotivo.filter(n => !n.motivo);
         if (semMotivo.length > 0) {
             window.Utils.showToast(`Preencha o motivo para todas as notas.`, 'error');
             return;
         }
+
+        const preview = notasComMotivo.map(n => `NF ${n.numero} — ${n.cliente.substring(0,30)} — ${n.motivo}`);
+        const ok = await window.Utils.confirm({
+            title: `Cancelar ${notasComMotivo.length} nota(s) fiscal(is)?`,
+            message: 'Esta ação é irreversível. As notas serão registradas como canceladas na planilha.',
+            details: preview,
+            type: 'danger',
+            confirmLabel: 'Sim, cancelar notas',
+        });
+        if (!ok) return;
 
         const btn = document.getElementById('cancel-btn-cancelar-todos');
         btn.disabled = true;
@@ -2778,7 +2991,7 @@ window.ModuleCancelamento = {
         lucide.createIcons();
 
         try {
-            const baseUrl = 'https://script.google.com/macros/s/AKfycbzHKdG8zR50ms52HiuRR4TWjR-HA26w5-L2FY_OYTIrHCPV_5oCWwTP0uPeuRti3pPD/exec';
+            const baseUrl = CONFIG.scriptPrincipal;
             const resultados = [];
 
             for (const nota of notasComMotivo) {
@@ -2812,6 +3025,7 @@ window.ModuleCancelamento = {
                 window.Utils.showToast(`${sucessos} cancelado(s) com sucesso. Falhas: ${falhas.map(f => f.numero).join(', ')}`, 'info');
             } else {
                 window.Utils.showToast(`${sucessos} notas canceladas com sucesso!`, 'success');
+                window.SessionLog.add('cancelamento', `${sucessos} NF(s) cancelada(s): ${notasComMotivo.map(n=>n.numero).join(', ')}`);
             }
 
             // Limpa a interface
@@ -2838,13 +3052,6 @@ window.ModulePix = {
         const dbInput = document.getElementById('pix-dbInput');
         const pdfInput = document.getElementById('pix-pdfInput');
         const btnDisparar = document.getElementById('pix-btn-disparar');
-        const apiUrlInput = document.getElementById('pix-apiUrl');
-
-        if (apiUrlInput) {
-            apiUrlInput.addEventListener('change', (e) => {
-                localStorage.setItem('hylian_pix_api_url', e.target.value.trim());
-            });
-        }
 
         this.loadCachedDatabase();
 
@@ -2857,6 +3064,12 @@ window.ModulePix = {
         });
 
         btnDisparar.addEventListener('click', () => this.dispararLote());
+        const btnSyncPix = document.getElementById('pix-btn-sync-sheets');
+        if (btnSyncPix) btnSyncPix.addEventListener('click', async () => {
+            const statusEl = document.getElementById('pix-db-status');
+            const db = await window.Utils.syncEmailDbFromSheets(statusEl);
+            if (db) { window.ModulePix.state.database = db; window.ModuleBoletos.state.database = db; window.ModuleBoletos.loadCachedDatabase(); }
+        });
     },
 
     normalizeName(str) {
@@ -3090,9 +3303,9 @@ if (destIndex !== -1) {
     document.getElementById('pix-pdfInput').value = '';
 },
     async dispararLote() {
-        const apiUrl = document.getElementById('pix-apiUrl').value.trim();
+        const apiUrl = CONFIG.pixApi;
         if (!apiUrl) {
-            window.Utils.showToast("Preencha a URL da API!", "error");
+            window.Utils.showToast("URL da API PIX não configurada no código.", "error");
             return;
         }
 
@@ -3109,13 +3322,12 @@ if (destIndex !== -1) {
             const inputVal = document.getElementById('email_' + file.id).value.trim();
             if (inputVal && inputVal.includes('@')) {
                 const nome = file.filename.replace(/\.[^/.]+$/, "");
-                loteEnvio.push({
-                    filename: file.filename,
-                    to: inputVal,
-                    subject: subject.replace(/\[ARQUIVO\]/g, nome),
-                    htmlBody: bodyText.replace(/\[ARQUIVO\]/g, nome),
-                    base64: file.base64
-                });
+            let corpoHtml = bodyText.replace(/\[ARQUIVO\]/g, nome);
+            loteEnvio.push({ filename: file.filename, 
+                to: inputVal, 
+                subject: subject.replace(/\[ARQUIVO\]/g, nome), 
+                htmlBody: corpoHtml, 
+                base64: file.base64 });
                 document.getElementById('status_' + file.id).innerHTML = `<i data-lucide="loader-2" class="w-5 h-5 mx-auto text-green-500 animate-spin"></i>`;
             } else {
                 document.getElementById('status_' + file.id).innerHTML = `<i data-lucide="x-circle" class="w-5 h-5 mx-auto text-red-500"></i>`;
@@ -3150,6 +3362,7 @@ if (destIndex !== -1) {
 
             if (data.success) {
                 window.Utils.showToast(`${data.enviados} envios executados!`, 'success');
+                window.SessionLog.add('pix', `${data.enviados} PIX(s) disparado(s) por e-mail`);
                 this.state.pendingFiles.forEach(file => {
                     const stEl = document.getElementById('status_' + file.id);
                     if (stEl.innerHTML.includes('loader')) {
@@ -3174,11 +3387,137 @@ if (destIndex !== -1) {
         lucide.createIcons();
     }
 };
+            // ==================== LOG DE SESSÃO ====================
+            window.SessionLog = {
+                _entries: [],
+                _colors: { baixa:'text-teal-400', cancelamento:'text-red-400', disparo:'text-indigo-400', pix:'text-green-400', info:'text-slate-400', erro:'text-amber-400' },
+                _icons:  { baixa:'check-circle', cancelamento:'x-circle', disparo:'mail', pix:'zap', info:'info', erro:'alert-triangle' },
+                add(type, msg) {
+                    const now = new Date();
+                    const time = String(now.getHours()).padStart(2,'0') + ':' + String(now.getMinutes()).padStart(2,'0') + ':' + String(now.getSeconds()).padStart(2,'0');
+                    const entry = { type, msg, time };
+                    this._entries.push(entry);
+                    this._render(entry);
+                    const badge = document.getElementById('log-badge');
+                    if (badge) { badge.innerText = this._entries.length; badge.classList.remove('hidden'); }
+                },
+                _render(entry) {
+                    const el = document.getElementById('log-entries');
+                    if (!el) return;
+                    const color = this._colors[entry.type] || 'text-slate-400';
+                    const icon  = this._icons[entry.type]  || 'info';
+                    const div = document.createElement('div');
+                    div.className = `flex items-start gap-2 ${color}`;
+                    div.innerHTML = `<i data-lucide="${icon}" class="w-3 h-3 mt-0.5 flex-shrink-0"></i><span class="text-slate-500 flex-shrink-0">${entry.time}</span><span class="text-slate-300">${entry.msg}</span>`;
+                    el.appendChild(div);
+                    el.scrollTop = el.scrollHeight;
+                    lucide.createIcons();
+                },
+                toggle() {
+                    const panel = document.getElementById('session-log-panel');
+                    const btn   = document.getElementById('log-toggle-btn');
+                    if (!panel) return;
+                    const hidden = panel.classList.toggle('hidden');
+                    if (btn) btn.classList.toggle('hidden', !hidden);
+                },
+                clear() {
+                    this._entries = [];
+                    const el = document.getElementById('log-entries');
+                    if (el) el.innerHTML = '';
+                    const badge = document.getElementById('log-badge');
+                    if (badge) badge.classList.add('hidden');
+                },
+                copyToClipboard() {
+                    const text = this._entries.map(e => `[${e.time}] [${e.type.toUpperCase()}] ${e.msg}`).join('\n');
+                    navigator.clipboard.writeText(text).then(() => window.Utils.showToast('Log copiado!', 'success'));
+                },
+                init() {
+                    document.getElementById('log-close-btn')?.addEventListener('click', () => this.toggle());
+                    document.getElementById('log-toggle-btn')?.addEventListener('click', () => this.toggle());
+                    document.getElementById('log-clear-btn')?.addEventListener('click', () => this.clear());
+                    document.getElementById('log-export-btn')?.addEventListener('click', () => this.copyToClipboard());
+                }
+            };
+
+            // ==================== MODAL DE CONFIRMAÇÃO ====================
+            window.Utils.confirm = function({ title, message, details = null, type = 'warning', confirmLabel = 'Confirmar', confirmClass = 'bg-red-600 hover:bg-red-700 text-white' }) {
+                return new Promise((resolve) => {
+                    const modal    = document.getElementById('confirm-modal');
+                    const iconWrap = document.getElementById('confirm-icon-wrap');
+                    const titleEl  = document.getElementById('confirm-title');
+                    const msgEl    = document.getElementById('confirm-message');
+                    const detEl    = document.getElementById('confirm-details');
+                    const okBtn    = document.getElementById('confirm-ok');
+                    const cancelBtn= document.getElementById('confirm-cancel');
+                    const icons      = { warning:'alert-triangle', danger:'alert-octagon', info:'info' };
+                    const iconColors = { warning:'bg-amber-100 dark:bg-amber-900/30 text-amber-600', danger:'bg-red-100 dark:bg-red-900/30 text-red-600', info:'bg-blue-100 dark:bg-blue-900/30 text-blue-600' };
+                    titleEl.innerText = title;
+                    msgEl.innerText   = message;
+                    iconWrap.className = `p-2.5 rounded-xl flex-shrink-0 ${iconColors[type] || iconColors.warning}`;
+                    iconWrap.innerHTML = `<i data-lucide="${icons[type] || 'alert-triangle'}" class="w-5 h-5"></i>`;
+                    okBtn.innerText    = confirmLabel;
+                    okBtn.className    = `px-5 py-2.5 text-sm font-bold rounded-xl transition-all btn-ripple ${confirmClass}`;
+                    if (details) { detEl.innerHTML = Array.isArray(details) ? details.join('<br>') : details; detEl.classList.remove('hidden'); } 
+                    else { detEl.classList.add('hidden'); }
+                    modal.classList.remove('hidden');
+                    lucide.createIcons();
+                    const cleanup = (result) => {
+                        modal.classList.add('hidden');
+                        document.getElementById('confirm-ok').replaceWith(okBtn.cloneNode(true));
+                        document.getElementById('confirm-cancel').replaceWith(cancelBtn.cloneNode(true));
+                        resolve(result);
+                    };
+                    document.getElementById('confirm-ok').addEventListener('click', () => cleanup(true));
+                    document.getElementById('confirm-cancel').addEventListener('click', () => cleanup(false));
+                });
+            };
+
+            // ==================== ATALHOS DE TECLADO ====================
+            (function initKeyboardShortcuts() {
+                const shortcuts = {
+                    '1':'view-home',        '2':'view-deposito',
+                    '3':'view-boletos',     '4':'view-disparo-pix',
+                    '5':'view-baixa',       '6':'view-faturamento',
+                    '7':'view-cobranca',    '8':'view-francesinha',
+                    '9':'view-conferencia', '0':'view-extrator',
+                    'c':'view-correio',     'n':'view-cancelamento',
+                };
+                document.addEventListener('keydown', (e) => {
+                    if (['INPUT','TEXTAREA','SELECT'].includes(e.target.tagName)) return;
+                    if (e.altKey && !e.ctrlKey && !e.shiftKey) {
+                        if (e.key === 'l' || e.key === 'L') { e.preventDefault(); window.SessionLog.toggle(); return; }
+                        const target = shortcuts[e.key.toLowerCase()];
+                        if (target) { e.preventDefault(); window.Core.switchView(target); }
+                    }
+                });
+            })();
+
 // Inicialização de todos os módulos
             window.Utils.carregarResumosDashboard();
             window.Utils.carregarGraficos();
             window.Theme.init();
             window.Core.init();
+            window.SessionLog.init();
+
+            // ===== DEMO: pré-popula módulos com dados fictícios =====
+            if (typeof DEMO_MODE !== 'undefined' && DEMO_MODE) {
+                // Pré-carrega banco de e-mails no ModuleBoletos e ModulePix
+                setTimeout(() => {
+                    const db = JSON.parse(localStorage.getItem('hylian_email_db') || '{}');
+                    if (window.ModuleBoletos) window.ModuleBoletos.state.database = db;
+                    if (window.ModulePix) window.ModulePix.state.database = db;
+                    // Atualiza status dos módulos
+                    ['bol-db-status','pix-db-status'].forEach(id => {
+                        const el = document.getElementById(id);
+                        if (el) {
+                            el.innerHTML = `<i data-lucide="check-circle" class="w-4 h-4"></i> Banco demo: ${Object.keys(db).length} clientes pré-carregados.`;
+                            el.className = "mt-2 text-xs font-semibold px-3 py-2 rounded-lg bg-emerald-50 text-emerald-700 border border-emerald-200 dark:bg-emerald-900/20 dark:text-emerald-400 dark:border-emerald-800/50 flex items-center gap-2";
+                        }
+                    });
+                    lucide.createIcons();
+                    window.SessionLog.add('info', 'Modo demo ativo — todas as operações são simuladas');
+                }, 500);
+            }
             window.ModuleBaixa.init();
             window.ModuleDeposito.init();
             window.ModuleBoletos.init();
@@ -3192,5 +3531,47 @@ if (destIndex !== -1) {
             window.ModulePix.init();
         });
     </script>
+
+    <!-- ===== MODAL DE CONFIRMAÇÃO ===== -->
+    <div id="confirm-modal" class="hidden fixed inset-0 z-[300] flex items-center justify-center" style="background:rgba(0,0,0,0.6);backdrop-filter:blur(3px)">
+        <div class="bg-white dark:bg-slate-900 rounded-2xl shadow-2xl border border-slate-200 dark:border-slate-700 w-full max-w-md mx-4 p-6 fade-in">
+            <div class="flex items-start gap-4 mb-4">
+                <div id="confirm-icon-wrap" class="p-2.5 rounded-xl flex-shrink-0"></div>
+                <div>
+                    <h3 id="confirm-title" class="text-base font-bold text-slate-900 dark:text-white"></h3>
+                    <p id="confirm-message" class="text-sm text-slate-500 dark:text-slate-400 mt-1"></p>
+                </div>
+            </div>
+            <div id="confirm-details" class="hidden mb-4 max-h-32 overflow-y-auto bg-slate-50 dark:bg-slate-800 rounded-xl p-3 text-xs font-mono text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-700"></div>
+            <div class="flex gap-3 justify-end pt-2 border-t border-slate-100 dark:border-slate-800">
+                <button id="confirm-cancel" class="px-5 py-2.5 text-sm font-bold rounded-xl bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 transition-all">Cancelar</button>
+                <button id="confirm-ok" class="px-5 py-2.5 text-sm font-bold rounded-xl transition-all"></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== LOG DE SESSÃO ===== -->
+    <div id="session-log-panel" class="hidden fixed bottom-4 left-4 z-[100] w-80 bg-slate-900 dark:bg-slate-950 border border-slate-700 rounded-2xl shadow-2xl flex flex-col" style="max-height:360px">
+        <div class="flex items-center justify-between px-4 py-3 border-b border-slate-700">
+            <div class="flex items-center gap-2">
+                <i data-lucide="terminal" class="w-4 h-4 text-yellow-400"></i>
+                <span class="text-xs font-bold text-white uppercase tracking-widest">Log da Sessão</span>
+                <span id="log-badge" class="hidden text-[10px] font-bold bg-yellow-400 text-slate-900 rounded-full px-1.5 py-0.5"></span>
+            </div>
+            <div class="flex items-center gap-2">
+                <button id="log-export-btn" title="Copiar log" class="text-slate-400 hover:text-yellow-400 transition-colors"><i data-lucide="copy" class="w-3.5 h-3.5"></i></button>
+                <button id="log-clear-btn" title="Limpar" class="text-slate-400 hover:text-red-400 transition-colors"><i data-lucide="trash-2" class="w-3.5 h-3.5"></i></button>
+                <button id="log-close-btn" class="text-slate-400 hover:text-white transition-colors"><i data-lucide="x" class="w-4 h-4"></i></button>
+            </div>
+        </div>
+        <div id="log-entries" class="flex-1 overflow-y-auto p-3 space-y-1.5 text-[11px] font-mono"></div>
+        <div class="px-4 py-2 border-t border-slate-700 text-[10px] text-slate-500">Alt+L para abrir/fechar</div>
+    </div>
+
+    <!-- Botão flutuante para abrir o log -->
+    <button id="log-toggle-btn" title="Log da sessão (Alt+L)" class="fixed bottom-4 left-4 z-[99] w-10 h-10 bg-slate-900 border border-slate-700 rounded-xl flex items-center justify-center text-yellow-400 hover:bg-slate-800 shadow-lg transition-all">
+        <i data-lucide="terminal" class="w-4 h-4"></i>
+    </button>
+
 </body>
 </html>
